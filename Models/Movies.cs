@@ -11,17 +11,41 @@ namespace TheChurchMovieApp.Models
     public class Movies
     {
         public int Id { get; set; }
+        
         public string Title { get; set; }
 
         [Display(Name = "Release Date")]
         [DataType(DataType.Date)]
         public DateTime ReleaseDate { get; set; }
+        
         public string Genre { get; set; }
         
-        [Column(TypeName = "Decimal(18.2)")]
+        [Column(TypeName = "Decimal(18,2)")]
         public decimal Price { get; set; }
+
+        public string Rating { get; set; }
 
         
 
+    }
+
+    public enum GenreList
+    {
+        Comedy,
+        Horror,
+        Romance,
+        Science_Fiction,
+        Adventure,
+        Western,
+        Action,
+        War,
+        Documentary,
+        Animation,
+        Noir,
+        Romantic_Comedy,
+        Drama,
+        Fantasy,
+        Fiction,
+        Musical
     }
 }
