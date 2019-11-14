@@ -20,9 +20,29 @@ namespace TheChurchMovieApp.Controllers
         }
 
         // GET: Movies
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string movieGenre, string searchString)
         {
-            return View(await _context.Movies.ToListAsync());
+            IQueryable<string> genreQuery = from m in _context.Movies orderby m.Genre select m.Genre;
+            
+            var movies = from m in _context.Movies select m;
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                movies = movies.Where(s => s.Title.Contains(searchString));
+            }
+
+            if (!string.IsNullOrEmpty(movieGenre))
+            {
+                movies = movies.Where(x => x.Genre == movieGenre);
+            }
+
+            var movieGenreVm = new MovieGenreViewModel
+            {
+                Genres = new SelectList(await genreQuery.Distinct().ToListAsync()),
+                Movies = await movies.ToListAsync()
+            };
+
+                return View(movieGenreVm);
         }
 
         // GET: Movies/Details/5
