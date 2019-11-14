@@ -18,7 +18,7 @@ namespace TheChurchMovieApp.Models
         [DataType(DataType.Date)]
         public DateTime ReleaseDate { get; set; }
         
-        public string Genre { get; set; }
+        public GenreList Genre { get; set; }
         
         [Column(TypeName = "Decimal(18,2)")]
         public decimal Price { get; set; }
