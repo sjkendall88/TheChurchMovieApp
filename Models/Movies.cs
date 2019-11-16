@@ -21,7 +21,7 @@ namespace TheChurchMovieApp.Models
         [Column(TypeName = "Decimal(18,2)")]
         public decimal Price { get; set; }
 
-        
+        public string Rating { get; set; }
 
     }
 }

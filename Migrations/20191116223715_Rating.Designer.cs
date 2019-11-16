@@ -10,8 +10,8 @@ using TheChurchMovieApp.Data;
 namespace TheChurchMovieApp.Migrations
 {
     [DbContext(typeof(TheChurchMovieAppContext))]
-    [Migration("20191114185650_GenreList")]
-    partial class GenreList
+    [Migration("20191116223715_Rating")]
+    partial class Rating
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -28,8 +28,8 @@ namespace TheChurchMovieApp.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("Genre")
-                        .HasColumnType("int");
+                    b.Property<string>("Genre")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("Decimal(18,2)");
