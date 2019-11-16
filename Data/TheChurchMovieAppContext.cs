@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -16,5 +17,7 @@ namespace TheChurchMovieApp.Data
         }
 
         public DbSet<Movies> Movies { get; set; }
+
+        public IEnumerable<GenreList> GenreList { get; }
     }
 }
