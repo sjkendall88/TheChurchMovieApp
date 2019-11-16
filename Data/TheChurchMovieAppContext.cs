@@ -17,7 +17,5 @@ namespace TheChurchMovieApp.Data
         }
 
         public DbSet<Movies> Movies { get; set; }
-
-        public IEnumerable<GenreList> GenreList { get; }
     }
 }
