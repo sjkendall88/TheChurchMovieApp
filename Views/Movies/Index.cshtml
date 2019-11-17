@@ -6,7 +6,7 @@
     <h1>Movies</h1>
 
     <p>
-        <a asp-action="Create">Create New</a>
+        <a class="buttonStyle" asp-action="Create">Create New</a>
     </p>
     <form asp-controller="Movies" asp-action="Index" method="get">
         <p>
@@ -25,7 +25,7 @@
                     @Html.DisplayNameFor(models => models.Movies[0].Title)
                 </th>
                 <th>
-                    <a asp-action="Index" asp-route-sortOrder="@ViewData["DateSortParm"]">@Html.DisplayNameFor(model => model.Movies[0].ReleaseDate)</a>
+                    <a style="text-decoration: none; color: black" asp-action="Index" asp-route-sortOrder="@ViewData["DateSortParm"]">@Html.DisplayNameFor(model => model.Movies[0].ReleaseDate) &#8597</a>
                 </th>
                 <th>
                     @Html.DisplayNameFor(model => model.Movies[0].Genre)
@@ -59,9 +59,9 @@
                     @Html.DisplayFor(modelItem => item.Rating)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    <a class="buttonStyle" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    <a class="buttonStyle" asp-action="Details" asp-route-id="@item.Id">Details</a>
+                    <a class="buttonStyle" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
                 </td>
             </tr>
             }
