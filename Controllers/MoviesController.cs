@@ -91,6 +91,11 @@ namespace TheChurchMovieApp.Controllers
         {
             if (ModelState.IsValid)
             {
+                // The next two lines are the work around for using an enum.
+                // Pulled the index from the movie object as a string
+                int genreString = int.Parse(movies.Genre);
+                // Adds the Name of the value back to the movie object.
+                movies.Genre = Enum.GetName(typeof(GenreList), genreString);
                 _context.Add(movies);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
