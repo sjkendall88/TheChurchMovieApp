@@ -26,7 +26,8 @@ namespace TheChurchMovieApp.Models
                         ReleaseDate = DateTime.Parse("2003-1-31"),
                         Genre = "Comedy",
                         Price = 9.99M,
-                        Rating = "PG"
+                        Rating = "PG",
+                        Image = "../../Images/TheRM.jpg"
                     },
 
                     new Movies
@@ -35,7 +36,8 @@ namespace TheChurchMovieApp.Models
                         ReleaseDate = DateTime.Parse("2006-2"),
                         Genre = "Adventure",
                         Price = 7.99M,
-                        Rating = "PG-13"
+                        Rating = "PG-13",
+                        Image = "../../Images/PiratesoftheGreatSaltLake.jpg"
                     },
 
                     new Movies
@@ -44,7 +46,8 @@ namespace TheChurchMovieApp.Models
                         ReleaseDate = DateTime.Parse("2002-1-30"),
                         Genre = "Romance",
                         Price = 12.99M,
-                        Rating = "PG"
+                        Rating = "PG",
+                        Image = "../../Images/TheSinglesWard.jpg"
                     },
 
                     new Movies
@@ -53,7 +56,8 @@ namespace TheChurchMovieApp.Models
                         ReleaseDate = DateTime.Parse("2011-2-4"),
                         Genre = "Romance",
                         Price = 11.99M,
-                        Rating = "PG"
+                        Rating = "PG",
+                        Image = "../../Images/MidwaytoHeaven.jpg"
                     },
 
                     new Movies
@@ -62,7 +66,8 @@ namespace TheChurchMovieApp.Models
                         ReleaseDate = DateTime.Parse("2009-1-23"),
                         Genre = "Comedy",
                         Price = 8.99M,
-                        Rating = "NR"
+                        Rating = "NR",
+                        Image = "../../Images/ScoutCamp.jpg"
                     },
 
                     new Movies
@@ -71,7 +76,8 @@ namespace TheChurchMovieApp.Models
                         ReleaseDate = DateTime.Parse("2007-12-11"),
                         Genre = "Romance",
                         Price = 9.99M,
-                        Rating = "NR"
+                        Rating = "NR",
+                        Image = "../../Images/TheSingles2ndWard.jpg"
                     },
 
                     new Movies
@@ -80,7 +86,8 @@ namespace TheChurchMovieApp.Models
                         ReleaseDate = DateTime.Parse("2007-8-12"),
                         Genre = "Comedy",
                         Price = 13.89M,
-                        Rating = "NR"
+                        Rating = "NR",
+                        Image = "../../Images/EntryLevel.jpg"
                     },
 
                     new Movies
@@ -89,7 +96,8 @@ namespace TheChurchMovieApp.Models
                         ReleaseDate = DateTime.Parse("2007-4-20"),
                         Genre = "Comedy",
                         Price = 9.99M,
-                        Rating = "PG"
+                        Rating = "PG",
+                        Image = "../../Images/Believe.jpg"
                     },
 
                     new Movies
@@ -98,7 +106,8 @@ namespace TheChurchMovieApp.Models
                         ReleaseDate = DateTime.Parse("2004-2-20"),
                         Genre = "Comedy",
                         Price = 12.99M,
-                        Rating = "PG"
+                        Rating = "PG",
+                        Image = "../../Images/TheBestTwoYears.jpg"
                     },
 
                     new Movies
@@ -107,7 +116,8 @@ namespace TheChurchMovieApp.Models
                         ReleaseDate = DateTime.Parse("2002-4-12"),
                         Genre = "Adventure",
                         Price = 13.99M,
-                        Rating = "PG"
+                        Rating = "PG",
+                        Image = "../../Images/TheOtherSideofHeaven.jpg"
                     },
 
                     new Movies
@@ -116,7 +126,8 @@ namespace TheChurchMovieApp.Models
                         ReleaseDate = DateTime.Parse("2015-2-26"),
                         Genre = "Documentary",
                         Price = 8.99M,
-                        Rating = "PG"
+                        Rating = "PG",
+                        Image = "../../Images/MeettheMormons.jpg"
                     },
 
                     new Movies
@@ -125,7 +136,8 @@ namespace TheChurchMovieApp.Models
                         ReleaseDate = DateTime.Parse("2019-6-28"),
                         Genre = "Adventure",
                         Price = 19.99M,
-                        Rating = "PG-13"
+                        Rating = "PG-13",
+                        Image = "../../Images/TheOtherSideofHeaven2.jpg"
                     }
 
                 );

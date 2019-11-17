@@ -20,7 +20,7 @@ namespace TheChurchMovieApp.Models
         [DataType(DataType.Date)]
         public DateTime ReleaseDate { get; set; }
 
-        [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$")]
+        // [RegularExpression(@"^[A-Z]+[a-zA-Z""'\s-]*$")]
         [Required]
         [StringLength(30)]
         public string Genre { get; set; }
@@ -35,5 +35,29 @@ namespace TheChurchMovieApp.Models
         [Required]
         public string Rating { get; set; }
 
+        public string Image { get; set; }
+
+    }
+
+    public enum GenreList
+    {
+        Comedy,
+        Horror,
+        Romance,
+        [Display(Name = "Science Fiction")]
+        ScienceFiction,
+        Adventure,
+        Western,
+        Action,
+        War,
+        Documentary,
+        Animation,
+        Noir,
+        [Display(Name = "Romantic Comedy")]
+        RomanticComedy,
+        Drama,
+        Fantasy,
+        Fiction,
+        Musical
     }
 }
