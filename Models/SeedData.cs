@@ -27,7 +27,7 @@ namespace TheChurchMovieApp.Models
                         Genre = "Comedy",
                         Price = 9.99M,
                         Rating = "PG",
-                        Image = "../../Images/TheRM.jpg"
+                        Image = "/Images/TheRM.jpg"
                     },
 
                     new Movies
@@ -37,7 +37,7 @@ namespace TheChurchMovieApp.Models
                         Genre = "Adventure",
                         Price = 7.99M,
                         Rating = "PG-13",
-                        Image = "../../Images/PiratesoftheGreatSaltLake.jpg"
+                        Image = "/Images/PiratesoftheGreatSaltLake.jpg"
                     },
 
                     new Movies
@@ -47,7 +47,7 @@ namespace TheChurchMovieApp.Models
                         Genre = "Romance",
                         Price = 12.99M,
                         Rating = "PG",
-                        Image = "../../Images/TheSinglesWard.jpg"
+                        Image = "/Images/TheSinglesWard.jpg"
                     },
 
                     new Movies
@@ -57,7 +57,7 @@ namespace TheChurchMovieApp.Models
                         Genre = "Romance",
                         Price = 11.99M,
                         Rating = "PG",
-                        Image = "../../Images/MidwaytoHeaven.jpg"
+                        Image = "/Images/MidwaytoHeaven.jpg"
                     },
 
                     new Movies
@@ -67,7 +67,7 @@ namespace TheChurchMovieApp.Models
                         Genre = "Comedy",
                         Price = 8.99M,
                         Rating = "NR",
-                        Image = "../../Images/ScoutCamp.jpg"
+                        Image = "/Images/ScoutCamp.jpg"
                     },
 
                     new Movies
@@ -77,7 +77,7 @@ namespace TheChurchMovieApp.Models
                         Genre = "Romance",
                         Price = 9.99M,
                         Rating = "NR",
-                        Image = "../../Images/TheSingles2ndWard.jpg"
+                        Image = "/Images/TheSingles2ndWard.jpg"
                     },
 
                     new Movies
@@ -87,7 +87,7 @@ namespace TheChurchMovieApp.Models
                         Genre = "Comedy",
                         Price = 13.89M,
                         Rating = "NR",
-                        Image = "../../Images/EntryLevel.jpg"
+                        Image = "/Images/EntryLevel.jpg"
                     },
 
                     new Movies
@@ -97,7 +97,7 @@ namespace TheChurchMovieApp.Models
                         Genre = "Comedy",
                         Price = 9.99M,
                         Rating = "PG",
-                        Image = "../../Images/Believe.jpg"
+                        Image = "/Images/Believe.jpg"
                     },
 
                     new Movies
@@ -107,7 +107,7 @@ namespace TheChurchMovieApp.Models
                         Genre = "Comedy",
                         Price = 12.99M,
                         Rating = "PG",
-                        Image = "../../Images/TheBestTwoYears.jpg"
+                        Image = "/Images/TheBestTwoYears.jpg"
                     },
 
                     new Movies
@@ -117,7 +117,7 @@ namespace TheChurchMovieApp.Models
                         Genre = "Adventure",
                         Price = 13.99M,
                         Rating = "PG",
-                        Image = "../../Images/TheOtherSideofHeaven.jpg"
+                        Image = "/Images/TheOtherSideofHeaven.jpg"
                     },
 
                     new Movies
@@ -127,7 +127,7 @@ namespace TheChurchMovieApp.Models
                         Genre = "Documentary",
                         Price = 8.99M,
                         Rating = "PG",
-                        Image = "../../Images/MeettheMormons.jpg"
+                        Image = "/Images/MeettheMormons.jpg"
                     },
 
                     new Movies
@@ -137,7 +137,7 @@ namespace TheChurchMovieApp.Models
                         Genre = "Adventure",
                         Price = 19.99M,
                         Rating = "PG-13",
-                        Image = "../../Images/TheOtherSideofHeaven2.jpg"
+                        Image = "/Images/TheOtherSideofHeaven2.jpg"
                     }
 
                 );

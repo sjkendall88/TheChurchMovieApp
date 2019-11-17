@@ -10,7 +10,7 @@ using TheChurchMovieApp.Data;
 namespace TheChurchMovieApp.Migrations
 {
     [DbContext(typeof(TheChurchMovieAppContext))]
-    [Migration("20191117003034_Image")]
+    [Migration("20191117005658_Image")]
     partial class Image
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
